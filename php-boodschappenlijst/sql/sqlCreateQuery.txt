@@ -1,0 +1,13 @@
+CREATE TABLE `groceries` (
+	`name` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_uca1400_ai_ci',
+	`quantity` INT(11) NOT NULL DEFAULT '1',
+	`price` DECIMAL(20,2) NOT NULL DEFAULT '0.00',
+	`totalCost` DECIMAL(20,2) NULL DEFAULT NULL
+)
+COLLATE='utf8mb4_uca1400_ai_ci'
+ENGINE=InnoDB
+;
+
+
+Maak DB in HeidiSQL genaamd php-boodschappenlijst-mikel
+    ^ als je een andere naam kiest, pas de naam in config.php aan.
